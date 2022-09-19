@@ -47,6 +47,9 @@ header div {
     width: 50%;
     height: 40px;
 }
+.start-header {
+    border: none;
+}
 #tv, #download, #devices, #kids, #faqs {
     color: white;
     text-align: center;
@@ -55,6 +58,12 @@ header div {
     background-color: #242424;
     padding: 5px;
     width: 100%;
+}
+.faq-link-item {
+    list-style-type: none;
+}
+footer {
+    padding: 20px;
 }
 footer, .footer-link-item a {
     color: #8c8c8c;
@@ -75,6 +84,6 @@ footer ul {
 .footer-link-item a:hover {
     text-decoration: underline;
 }
-.lang-footer {
+#lang-footer {
     padding: 15px 0 15px 0;
 }
