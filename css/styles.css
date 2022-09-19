@@ -1,0 +1,80 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+    font-family: Roboto;
+}
+body, html {
+    height: 100%;
+    background-color: black;
+    margin: 0;
+  }
+header {
+    background-image: url("../images/netflix-background.jpg");
+    height: 70%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+header nav {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+.lang-div {
+    padding-top: 0px;
+}
+.lang-select {
+    padding: 5px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.svg-icon-netflix-logo {
+    fill: #e50914;
+    height: 2rem;
+}
+.login-header, .start-header {
+    padding: 10px 5px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header div {
+    padding-top: 10%;
+}
+.email-header {
+    width: 50%;
+    height: 40px;
+}
+#tv, #download, #devices, #kids, #faqs {
+    color: white;
+    text-align: center;
+}
+.separation {
+    background-color: #242424;
+    padding: 5px;
+    width: 100%;
+}
+footer, .footer-link-item a {
+    color: #8c8c8c;
+}
+footer ul {
+    padding: 0;
+}
+.footer-link-item {
+    display: inline-block;
+    list-style-type: none;
+    min-width: 100px;
+    padding: 9px 12px 0 0;
+    width: 33%;
+}
+.footer-link-item a {
+    text-decoration: none;
+}
+.footer-link-item a:hover {
+    text-decoration: underline;
+}
+.lang-footer {
+    padding: 15px 0 15px 0;
+}
